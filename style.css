@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0%;
+    color: white;
+
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(1, 8, 49);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.main h1{
+    padding-top: 50px;
+}
+.mob{
+    display: block;
+    padding-top: 15px;
+    border-radius: 10px;
+    background-color: orangered;
+
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+
+}
+.phone{
+    align-items: center;
+    width: 200px;
+    position: absolute;
+    left: 39%;
+    top: 130px;
+}
+.phone button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+}
+.phone button:hover{
+    box-shadow: 0px 0px 15px red; 
+}
+.hacked{
+    position: absolute;
+    top: 90px;
+    width: 900px;
+    /* border: 2px solid red; */
+    left: -148%;
+    padding-bottom: 40px;
+    font-size: 30px;
+    
+}
+.hacked h1{
+    color: red;
+    /* text-shadow: 0px 0px 10px white; */
+    border: 20px double red;
+    font-size: 130px;
+    padding-bottom: 26px;
+
+}
+.display-on{
+    display: none;
+}
